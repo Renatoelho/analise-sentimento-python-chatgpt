@@ -18,13 +18,13 @@ Ou
 pip install -r requirements.txt
 ```
 
-Isso instalará as bibliotecas Python-dotenv e Requests, que são necessárias para utilizar o modelo ChatGPT-3.
+Isso instalará as bibliotecas Python-dotenv e Requests, que são necessárias para utilizar na análise.
 
 ## Passo 2: Criar uma função para análise de sentimento
 
 Em seguida, vamos criar uma função que recebe um texto e retorna um outro texto que indica o sentimento expresso. Que pode ser positivo ,negativo ou um sentimento neutro.
 
-Nesta função, utilizamos o modelo GPT-3 da OpenAI via API para gerar uma saída a partir do texto de entrada. Em seguida, aplicamos essa função a um determidado texto e obtivemos o resultado da análise de sentimento.
+Nesta função, utilizamos o modelo GPT-3 da OpenAI por meio da API para gerar uma saída a partir do texto de entrada. Em seguida, aplicamos essa função a um determinado texto e obtemos o resultado da análise de sentimento.
 
 ```python
 import requests
@@ -100,4 +100,4 @@ Este código vai imprimir o texto e o sentimento para cada um dos exemplos de te
 
 ## Referência:
 
-A documentação oficial da API do ChatGPT está disponível no site da OpenAI, no endereço https://beta.openai.com/docs/api-reference/introduction. Lá, você encontrará informações detalhadas sobre como utilizar a API, incluindo exemplos de código em diferentes linguagens de programação, guias de integração e explicações sobre os parâmetros disponíveis.
+A documentação oficial da API do ChatGPT está disponível no site da OpenAI, no endereço https://beta.openai.com/docs/api-reference/introduction. Você encontrará informações detalhadas sobre como utilizar a API, incluindo exemplos de código em diferentes linguagens de programação, guias de integração e explicações sobre os parâmetros disponíveis.
