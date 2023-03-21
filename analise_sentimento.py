@@ -29,7 +29,7 @@ def analise_sentimento(texto: str) -> str:
         }
 
         reposta = requests.post(
-            f"https://api.openai.com/v1/engines/{modelo_engine}/completionsx",
+            f"https://api.openai.com/v1/engines/{modelo_engine}/completions",
             headers=cabecalho,
             json=dados,
         )
