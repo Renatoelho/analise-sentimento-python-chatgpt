@@ -73,7 +73,7 @@ def analise_sentimento(texto: str) -> str:
 
 ```
 
-# Passo 3: Testar a função com exemplos
+## Passo 3: Testar a função com exemplos
 
 Para testar a função de análise de sentimento, podemos utilizar alguns exemplos simples de textos com diferentes sentimentos. Por exemplo:
 
