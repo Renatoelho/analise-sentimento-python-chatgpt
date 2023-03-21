@@ -1,6 +1,6 @@
-from os import getenv
 
 import requests
+from os import getenv
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -29,7 +29,7 @@ def analise_sentimento(texto: str) -> str:
         }
 
         reposta = requests.post(
-            f"https://api.openai.com/v1/engines/{modelo_engine}/completions",
+            f"https://api.openai.com/v1/engines/{modelo_engine}/completionsx",
             headers=cabecalho,
             json=dados,
         )

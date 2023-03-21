@@ -27,9 +27,8 @@ Em seguida, vamos criar uma função que recebe um texto e retorna um outro text
 Nesta função, utilizamos o modelo GPT-3 da OpenAI via API para gerar uma saída a partir do texto de entrada. Em seguida, aplicamos essa função a um determidado texto e obtivemos o resultado da análise de sentimento.
 
 ```python
-from os import getenv
-
 import requests
+from os import getenv
 from dotenv import load_dotenv
 
 load_dotenv()
