@@ -1,12 +1,12 @@
 # Como criar uma análise de sentimento utilizando o Python e ChatGPT-3
 
-A análise de sentimento é uma técnica de processamento de linguagem natural que permite identificar a opinião expressa em um texto. Ela pode ser utilizada para entender a opinião dos clientes sobre um produto ou serviço, monitorar a reputação de uma marca ou empresa, ou até mesmo identificar tendências em redes sociais.
+Análise de sentimento é uma técnica de processamento de linguagem natural que permite identificar a opinião expressa em um texto. Ela pode ser utilizada para entender a opinião dos clientes sobre um produto ou serviço, monitorar a reputação de uma marca ou empresa, ou até mesmo identificar tendências em redes sociais.
 
 Neste tutorial, vamos utilizar a linguagem de programação Python e o modelo de linguagem natural ChatGPT, da OpenAI, para criar uma análise de sentimento simples.
 
 ## Passo 1: Instalar as dependências
 
-Antes de começar, é necessário instalar algumas bibliotecas do Python. Para isso, abra o terminal ou prompt de comando e execute o seguinte comando:
+Antes de começar, é necessário instalar algumas bibliotecas do Python. Para isso, abra o terminal e execute o seguinte comando:
 
 ```bash
 pip install python-dotenv requests
@@ -24,7 +24,7 @@ Isso instalará as bibliotecas Python-dotenv e Requests, que são necessárias p
 
 Em seguida, vamos criar uma função que recebe um texto e retorna um outro texto que indica o sentimento expresso. Que pode ser positivo ,negativo ou um sentimento neutro.
 
-Nesta função, utilizamos o modelo GPT-3 da OpenAI por meio da API para gerar uma saída a partir do texto de entrada. Em seguida, aplicamos essa função a um determinado texto e obtemos o resultado da análise de sentimento.
+Nesta função, utilizamos o modelo ChatGPT-3 da OpenAI por meio da API para gerar uma saída a partir do texto de entrada. Em seguida, aplicamos essa função a um determinado texto e obtemos o resultado da análise de sentimento.
 
 ```python
 import requests
