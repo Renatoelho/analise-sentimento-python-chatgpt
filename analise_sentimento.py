@@ -10,9 +10,9 @@ def analise_sentimento(texto: str) -> str:
         chave_api = getenv("CHAVE_API", None)
         modelo_engine = "text-davinci-003"
         comando = (
-            "Faça uma análise de sentimento no "
-            "seguinte texto e classifique em "
-            f"positivo, negativo ou neutro: '{texto}'"
+            "Responda em uma única palavra, sendo positivo, "
+            "negativo ou neutro o sentimento contido no seguinte "
+            f"texto: '{texto}'"
         )
 
         cabecalho = {
@@ -23,7 +23,7 @@ def analise_sentimento(texto: str) -> str:
         dados = {
             "prompt": comando,
             "temperature": 0.7,
-            "max_tokens": 100,
+            "max_tokens": 35,
             "n": 1,
             "stop": None,
         }
